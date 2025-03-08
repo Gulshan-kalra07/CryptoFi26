@@ -1,0 +1,109 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Playwrite IT Moderna", cursive;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: 0.3s all ease;
+}
+
+:root {
+    --main-color: #4c39ff;
+    --white-color: white;
+    --background-color: rgba(255, 255, 255, 0.2);
+}
+
+#navigation-header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    justify-content: center;
+    padding:30px 0px; 
+}
+
+#navbar {
+    font-family:'Ubuntu', sans-serif;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 92%;
+    height: 80px;
+    border: none;
+    border-radius: 29px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--main-color);
+    background-color: var(--background-color);
+    backdrop-filter: blur(7px);
+}
+
+#navbar-logo {
+    font-size: 28px;
+    font-weight: 600;
+    font-style:italic;
+    margin: 0px 0px 5px;
+}
+
+#navbar-link {
+    /* position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+    justify-content:space-around;
+
+}
+
+#navbar-link li a{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 14px;
+    
+}
+
+#navbar-link li a:hover {
+    color: var(--main-color);
+    font-size: 20px;
+    margin: 0px 8px 20px 8px;
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+}
+
+.navbar-right li a i{
+    height: auto;
+    font-size: 30px;
+    color: var(--main-color);
+    padding: 0px 5px;
+
+}
+
+.navbar-right li a i:hover {
+ color: var(--white-color);
+}
+
+#main-section {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+
+}
+#main-section img {
+    position:sticky;
+    width: 100%;
+    height: 100%;
+}
