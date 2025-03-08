@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -12,27 +10,50 @@
 }
 
 :root {
-    --main-color: #4c39ff;
+    --main-color: #6c5cff;
     --white-color: white;
     --background-color: rgba(255, 255, 255, 0.2);
 }
 
-#navigation-header {
+#bg-image {
+    z-index: 0;
     position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#bg-image img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blur-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(8, 0, 26, 0.5);
+    backdrop-filter: blur(7px);
+}
+
+#navigation-header {
     display: flex;
     width: 100%;
-    height:fit-content;
+    height: fit-content;
     justify-content: center;
-    padding:30px 0px; 
+    padding: 20px 0px 0px;
 }
 
 #navbar {
-    font-family:'Ubuntu', sans-serif;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
-    z-index: 2;
-    width: 92%;
+    width: 98%;
     height: 80px;
     border: none;
     border-radius: 29px;
@@ -46,26 +67,25 @@
 #navbar-logo {
     font-size: 28px;
     font-weight: 600;
-    font-style:italic;
+    font-style: italic;
     margin: 0px 0px 5px;
 }
 
 #navbar-link {
-    /* position: fixed; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 50px;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
-#navbar-link li a{
+#navbar-link li a {
     color: var(--white-color);
     font-size: 16px;
     font-weight: 600;
     margin: 0px 14px;
-    
+
 }
 
 #navbar-link li a:hover {
@@ -83,7 +103,7 @@
     width: auto;
 }
 
-.navbar-right li a i{
+.navbar-right li a i {
     height: auto;
     font-size: 30px;
     color: var(--main-color);
@@ -92,18 +112,116 @@
 }
 
 .navbar-right li a i:hover {
- color: var(--white-color);
+    color: var(--white-color);
 }
 
 #main-section {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     width: 100%;
-    margin: auto;
-    z-index: 1;
-
+    margin-top: 150px;
 }
-#main-section img {
-    position:sticky;
+
+
+#about-section {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height:fit-content;
+    padding: 40px 0px 80px;
+}
+
+.primary-heading {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0px 0px 15px;
+}
+
+.intro-middle {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    padding: 0px 300px;
+}
+
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    /* background-color: green; */
+}
+
+
+.services-bottom-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+    height: 600px;
+    margin: 25px 0px 50px;
+}
+
+.services-bottom-card {
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 31.3%;
+    height: 240px;
+    margin: 20px 1%;
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.services-bottom-card img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.services-bottom-card-two {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0px 0px 10px;
+}
+
+.services-bottom-card-three {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    font-size: 1.06rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 2rem 1rem 0rem;
+    background-color: rgba(25, 60, 155, 0.4);
+    backdrop-filter: blur(5px);
+    transition: .5s;
+}
+
+.services-bottom-card-para {
+    font-weight: 500;
+    padding: 10px 0px 10px;
+}
+
+.services-bottom-card-three button {
+    margin: 1rem .5rem;
+    font-size: 1.3rem;
+}
+
+.services-bottom-card:hover .services-bottom-card-three {
+    bottom: 0;
 }
