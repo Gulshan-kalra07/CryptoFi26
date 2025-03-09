@@ -1,0 +1,486 @@
+
+@media screen and (max-width:1529px) {
+
+    .services-section {
+        height: 740px;
+    }
+
+    .services-bottom-card {
+        height: 240px;
+    }
+
+}
+
+@media screen and (max-width:1429px) {
+
+    .services-bottom-card-container {
+        width: 90%;
+        margin: 25px 5%;
+    }
+
+}
+
+@media screen and (max-width:1267px) {
+
+    .services-section {
+        height: 780px;
+    }
+
+    .services-section {
+        height: 1050px;
+    }
+
+    .services-bottom-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1050px;
+    }
+
+    .services-bottom-card {
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width:1189px) {
+
+    .services-bottom-card-one {
+        height: 55px;
+    }
+}
+
+@media screen and (max-width:870px) {
+
+    .contact-middle {
+        width: 80%;
+    }
+
+    .contact-bottom {
+        margin: 15px 0px 75px 0px;
+    }
+
+
+
+}
+
+@media screen and (max-width:777px) {
+
+    .services-bottom-card {
+        height: 240px;
+    }
+
+    .services-bottom-card-three {
+        padding-bottom: 5px;
+        font-size: 1rem;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:753px) {
+
+    .services-bottom-card {
+        height: 240px;
+    }
+
+    .services-bottom-card-three {
+        padding-bottom: 5px;
+        font-size: 1rem;
+        height: 100%;
+    }
+
+    .services-bottom-card-three .button {
+        width: 110px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width:726px) {
+
+    .services-section {
+        height: fit-content;
+    }
+
+    .services-bottom-card-container {
+        flex-direction: column;
+        height: fit-content;
+        width: 80%;
+        padding: 0px;
+
+    }
+
+    .services-bottom-card {
+        width: 100%;
+        height: 250px;
+        margin: 20px 0px;
+    }
+
+    .hover-effect .button {
+        width: 200px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:706px) {
+
+    .navbar-logo {
+        font-size: 1.75rem;
+    }
+
+    #menubar-icon {
+        display: none;
+        padding: 0px 0px 0px 5px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .navbar-middle li a {
+        font-size: 14px;
+    }
+
+    .services-bottom-card-container {
+        width: 86%;
+        margin: 25px 7%;
+        padding-left: 0%;
+    }
+
+    .services-bottom-card-two {
+        font-size: 25px;
+    }
+
+    .services-bottom-card-three {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width:687px) {
+
+    .services-bottom-card {
+        height: 240px;
+    }
+
+
+}
+
+@media screen and (max-width:656px) {
+
+    .services-bottom-card {
+        height: 230px;
+    }
+
+    .project_button_box {
+        display: flex;
+    } 
+
+    .contact-bottom {
+        width: 135px;
+        height: 45px;
+        margin: 20px 0px 70px;
+
+    }
+
+    .contact-bottom a {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:559px) {
+
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
+
+    .ri-instagram-line,
+    .ri-mail-send-line,
+    .ri-twitter-x-line {
+        font-size: 1.3rem;
+    }
+
+    .navbar ul li a {
+        font-size: .7rem;
+    }
+
+    .services-bottom-card {
+        height:220px;
+    }
+
+    .hover-effect .button {
+        width: 150px;
+        font-size: 1.1rem;
+    }
+
+    .footer a {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .navbar-logo {
+        font-size: 2rem;
+    }
+
+    .navbar ul li a {
+        font-size: 1.2rem;
+    }
+
+    .ri-twitter-x-line,
+    .ri-instagram-line,
+    .ri-mail-send-line {
+        font-size: 1.4rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:fit-content;
+        height: 40px;
+        margin: 20px 2px 50px;
+        font-size: 16px;
+
+    }
+
+    .services-bottom-card {
+        width: 100%;
+        height:230px;
+    }
+
+    .footer a {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .contact-section {
+        padding-bottom: 30px;
+        height: fit-content;
+    }
+
+    .footer a {
+        font-size: .9rem;
+    }
+
+
+}
+
+@media screen and (max-width:428px) {
+
+     .hover-effect .button {
+        width: 120px;
+        height: 44px;
+        font-size: 1rem;
+     }
+
+     .footer a {
+        font-size: .8rem;
+     }
+
+}
+
+@media screen and (max-width:370px) {
+
+    .contact-middle {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:364px) {
+
+    .navbar-section {
+        height: 60px;
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        font-size: 28px;
+    }
+
+    .navbar-middle {
+        display: none;
+    }
+
+    #menubar-icon {
+        display: inline-block;
+        padding: 0px 0px 0px 5px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    
+    .about-me-section {
+        width: 100%;
+        height: fit-content;
+        padding: 30px 0px;
+        background-color: rgb(252, 240, 224);
+    }
+
+    .services-section {
+        width: 100%;
+        height: fit-content;
+        padding-top: 30px;
+    }
+
+    .services-bottom-card-container {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 5px;
+    }
+
+    .services-bottom-card {
+        width: 90%;
+        height: 210px;
+        margin: 20px 5%;
+        background-color: solid white;
+        border: 2px solid rgb(236, 232, 232);
+        border-radius: 15px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .services-bottom-card-one {
+        width: 50px;
+        height: 50px;
+        margin: 0px 44%;
+    }
+
+    .services-bottom-card-one i {
+        font-size: 1.56rem;
+    }
+
+    .services-bottom-card-two {
+        font-size: 1.68rem;
+        padding: 8px 0px 0px;
+    }
+
+    .services-bottom-card-three {
+        font-size: 0.9rem;
+        padding: 15px 5px 0px;
+    }
+
+    .contact-section {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .contact-middle {
+        width: 90%;
+        height: auto;
+        font-size: 0.9em;
+        margin: 0px 5% 10px;
+        padding: 0px 25px;
+        line-height: 20px;
+    }
+
+    .contact-bottom {
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 50px;
+    }
+
+    .footer a {
+        font-size: .7rem;
+    }
+
+
+}
+
+@media screen and (max-width:336px) {
+
+    .services-bottom-card {
+        height: 220px;
+    }
+
+    .hover-effect .button {
+        font-size: .8rem;
+        font-weight: 600;
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width:310px) {
+
+    .footer a {
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    
+}
+
+@media screen and (max-width:300px) {
+
+    .services-bottom-card {
+        height: 280px;
+    }
+
+   .project_button_box {
+    flex-direction: column;
+   }
+
+   .project_button_box .button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    margin: 5px 0px;
+    font-size: 1rem;
+   }
+
+   .Cv-box button a {
+    font-size:.7rem;
+    font-weight: 600;
+}
+
+}
+
+@media screen and (max-width:280px) {
+
+    .home {
+        height:fit-content;
+    }
+
+    .contact-bottom {
+        height: 37px;
+         margin-bottom: 0px;
+    }
+
+    .Cv-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Cv-box button {
+       width: 80%;
+       margin: 10px 0px;
+    }
+
+    .Cv-box button a {
+        font-size: 1rem;
+    }
+
+
+}

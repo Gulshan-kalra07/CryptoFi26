@@ -32,9 +32,10 @@
 }
 
 .blur-section {
+    position:relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height:150vh;
     background-color: rgba(8, 0, 26, 0.5);
     backdrop-filter: blur(7px);
 }
@@ -48,13 +49,14 @@
 }
 
 #navbar {
+    z-index: 5;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
     width: 98%;
-    height: 80px;
+    height: 70px;
     border: none;
     border-radius: 29px;
     align-items: center;
@@ -120,20 +122,19 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
-
 
 #about-section {
     position: relative;
-    z-index: 5;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
     height:fit-content;
-    padding: 40px 0px 80px;
+    padding: 10px 0px 30px;
 }
 
 .primary-heading {
@@ -146,7 +147,7 @@
 .intro-middle {
     font-size: 1.2rem;
     color: var(--white-color);
-    padding: 0px 300px;
+    padding: 0px 5%;
 }
 
 
@@ -156,24 +157,24 @@
     align-items: center;
     height: fit-content;
     width: 100%;
-    /* background-color: green; */
 }
 
 
 .services-bottom-card-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     width: 85%;
-    height: 600px;
+    height: fit-content;
     margin: 25px 0px 50px;
+    padding: 20px 0px;
 }
 
 .services-bottom-card {
     display: flex;
     text-align: center;
     position: relative;
-    width: 31.3%;
+    width: 30%;
     height: 240px;
     margin: 20px 1%;
     overflow: hidden;
@@ -189,10 +190,12 @@
     object-fit: cover;
 }
 
-.services-bottom-card-two {
+.services-bottom-card-two a {
+    color: var(--main-color);
     font-size: 2rem;
     font-weight: 600;
     padding: 0px 0px 10px;
+
 }
 
 .services-bottom-card-three {
