@@ -15,6 +15,41 @@
     --background-color: rgba(255, 255, 255, 0.2);
 }
 
+.scale:hover {
+    box-shadow: 8px 4px 15px var(--main_color);
+    scale: calc(1.04);
+    transition: all 0.3s ease;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+.button {
+    width: fit-content;
+    height: 44px;
+    margin: 8px 2px;
+    padding: 0px 15px;
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.button a {
+    color: white;
+}
+
+.button:hover {
+    border: 2px solid var(--hover_color);
+    background-color: white;
+}
+
+.button:hover a {
+    color: var(--hover_color);
+}
+
 #bg-image {
     z-index: 0;
     position: absolute;
@@ -35,7 +70,7 @@
     position:relative;
     display: flex;
     flex-direction: column;
-    height:150vh;
+    height:250vh;
     background-color: rgba(8, 0, 26, 0.5);
     backdrop-filter: blur(7px);
 }
@@ -156,6 +191,7 @@
     flex-direction: column;
     align-items: center;
     height: fit-content;
+    padding-bottom: 100px;
     width: 100%;
 }
 
@@ -210,8 +246,8 @@
     font-weight: 400;
     font-family: sans-serif;
     padding: 2rem 1rem 0rem;
-    background-color: rgba(25, 60, 155, 0.4);
-    backdrop-filter: blur(5px);
+    background-color: rgba(21, 43, 105, 0.8);
+    backdrop-filter: blur(8px);
     transition: .5s;
 }
 
